@@ -1,0 +1,18 @@
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "layout/*": ["./layout/"],
+          "config/*": ["./config/"],
+          "context/*": ["./context/"],
+          "graphql/*": ["./graphql/"],
+          "functions/*": ["./functions/"]
+        }
+      }
+    ]
+  ]
+}

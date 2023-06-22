@@ -1,0 +1,28 @@
+{
+  "printWidth": 80,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "semi": false,
+  "importOrder": [
+    "@fullcalendar/react",
+    "@fullcalendar/interaction",
+    "@fullcalendar/daygrid",
+    "@fullcalendar/timegrid",
+    "^@core/(.*)$",
+    "^@server/(.*)$",
+    "^@ui/(.*)$",
+    "^views/(.*)$",
+    "^components/(.*)$",
+    "^hooks/(.*)$",
+    "^[./]"
+  ],
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": true,
+  "bracketSpacing": true,
+  "bracketSameLine": false,
+  "jsxBracketSameLine": false,
+  "arrowParens": "always",
+  "proseWrap": "always",
+  "endOfLine": "lf",
+  "importOrderSeparation": true
+}
