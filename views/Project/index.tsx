@@ -28,7 +28,7 @@ export const ProjectView = (props: ProjectViewProps) => {
     <>
       <TopBarNavigation />
 
-      <Box ref={animation.scope} py={[8, null, 16, 32]}>
+      <Box ref={animation.scope} py={[8, null, 16, 32]} bgGradient= 'linear(to-b, backgroundGradient1, backgroundGradient2)'>
         <MaxWidthLayout>
           <Box mt={['72px']}>
             {!data.project ? (
