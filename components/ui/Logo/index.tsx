@@ -5,7 +5,7 @@ import { Icon } from '../Icon'
 
 export const Logo = () => {
   return (
-    <Center display='flex'>
+    <Center display='flex' cursor='pointer'>
       <Box h={30} w={30}>
         <Box position='absolute'>
           <Box transform='translateY(-6px)'>

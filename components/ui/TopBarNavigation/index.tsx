@@ -47,6 +47,11 @@ export const TopBarNavigation = (props: TopBarNavigationProps) => {
               y: 50,
               opacity: 0,
             }}
+            onClick={() =>
+              props.scrollIntoSection
+                ? props.scrollIntoSection.scroll({ section: 'home' })
+                : router.push('/?home')
+            }
           >
             <Logo />
           </motion.div>
