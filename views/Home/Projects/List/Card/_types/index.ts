@@ -2,4 +2,5 @@ import { HomeViewProjectsUseListItem } from 'views/Home/Projects/_hooks/useList/
 
 export type ListCardProps = {
   project: HomeViewProjectsUseListItem
+  isLastCard: boolean
 }

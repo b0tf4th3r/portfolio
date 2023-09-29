@@ -11,6 +11,8 @@ export const ScrollableHorizontalBox = (
 ) => {
   const scrollableHorizontalBox = useScrollableHorizontalBox({})
 
+  const areItemsCentered = props.shouldCenterItems && !scrollableHorizontalBox.isLeftArrowVisible && !scrollableHorizontalBox.isRightArrowVisible
+
   return (
     <Box position='relative'>
       {scrollableHorizontalBox.isLeftArrowVisible && (
@@ -46,7 +48,20 @@ export const ScrollableHorizontalBox = (
       )}
 
       <Box
-        sx={{
+        sx={areItemsCentered ?{
+          '::-webkit-scrollbar': {
+            width: '8px',
+            height: '8px',
+            borderRadius: '4px',
+            backgroundColor: 'cardBg',
+          },
+          '::-webkit-scrollbar-thumb': {
+            backgroundColor: 'cardBg_hover',
+          },
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center"
+        } : {
           '::-webkit-scrollbar': {
             width: '8px',
             height: '8px',

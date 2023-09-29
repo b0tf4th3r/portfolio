@@ -26,12 +26,6 @@ export const allTechnologies: Technology[] = [
     imageUrl: 'home/language/python.png',
   },
   {
-    name: 'java',
-    label: 'Java',
-    group: 'language',
-    imageUrl: 'home/language/java.png',
-  },
-  {
     name: 'graphql',
     label: 'GraphQL',
     group: 'language',
@@ -146,6 +140,12 @@ export const allTechnologies: Technology[] = [
     imageUrl: 'home/automation/scrapy.png',
   },
   {
+    name: 'jest',
+    label: 'Jest',
+    group: 'automation',
+    imageUrl: 'home/automation/jest.png',
+  },
+  {
     name: 'nutjs',
     label: 'Nut.js',
     group: 'automation',
@@ -164,10 +164,16 @@ export const allTechnologies: Technology[] = [
     imageUrl: 'home/other/git.png',
   },
   {
-    name: 'win32api',
-    label: 'Win32 API',
+    name: 'prometheus',
+    label: 'Prometheus',
     group: 'other',
-    icon: <Icon name='win32api' size='30px' />,
+    imageUrl: 'home/other/prometheus.png',
+  },
+  {
+    name: 'grafana',
+    label: 'Grafana',
+    group: 'other',
+    imageUrl: 'home/other/grafana.png',
   },
   {
     name: 'graylog',
@@ -176,10 +182,16 @@ export const allTechnologies: Technology[] = [
     imageUrl: 'home/other/graylog.png',
   },
   {
-    name: 'memoryreadwrite',
-    label: 'shared._Reading_and_writing_into_process_s_memory',
+    name: 'win32api',
+    label: 'Win32 API',
     group: 'other',
-    icon: <Icon name='memoryreadwrite' size='30px' />,
+    icon: <Icon name='win32api' size='30px' />,
+  },
+  {
+    name: 'gamehacking',
+    label: 'shared._Game_hacking',
+    group: 'other',
+    icon: <Icon name='gamehacking' size='30px' />,
   },
 ]
 
@@ -191,9 +203,8 @@ export const allTechnologiesNames: TechnologyName[] = [
   'git',
   'graphql',
   'graylog',
-  'java',
   'kafka',
-  'memoryreadwrite',
+  'gamehacking',
   'mui',
   'nestjs',
   'nextjs',

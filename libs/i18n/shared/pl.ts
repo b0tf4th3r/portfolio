@@ -19,10 +19,8 @@ export const sharedPlTranslation = {
     _Other: 'Inne',
     _Private: 'Prywatny',
     _Projects: 'Projekty',
-    _Prompt_engineering: 'Inżynieria podpowiedzi (AI)',
     _Read_more: 'Czytaj więcej',
-    _Reading_and_writing_into_process_s_memory:
-      'Odczyt i zapis do pamięci procesu',
+    _Game_hacking:'Hakowanie gier',
     _optional: 'opcjonalne',
     _Select: 'Wybierz',
     _Select_at_least_one_filter: 'Wybierz przynajmniej jeden filtr',

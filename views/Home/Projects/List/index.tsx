@@ -26,13 +26,14 @@ export const ProjectsList = (props: ProjectsListProps) => {
 
       {thereAreSomeItems && (
         <ScrollableHorizontalBox
+          shouldCenterItems={true}
           componentsProps={{
             root: { mt: [8, null, 16], p: [4, 8, null, null, 16] },
           }}
         >
           <>
             {props.list.items.map((project, i) => (
-              <ListCard project={project} key={i} />
+              <ListCard project={project} key={i} isLastCard={i === props.list.items.length - 1} />
             ))}
           </>
         </ScrollableHorizontalBox>

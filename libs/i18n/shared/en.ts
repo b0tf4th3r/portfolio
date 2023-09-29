@@ -19,10 +19,8 @@ export const sharedEnTranslation = {
     _Open_source: 'Open source',
     _Other: 'Other',
     _Projects: 'Projects',
-    _Prompt_engineering: 'Prompt engineering (AI)',
     _Read_more: 'Read more',
-    _Reading_and_writing_into_process_s_memory:
-      "Reading and writing into process's memory",
+    _Game_hacking: 'Game hacking',
     _optional: 'optional',
     _Select: 'Select',
     _Select_at_least_one_filter: 'Select at least one filter',

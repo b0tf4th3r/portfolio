@@ -68,7 +68,7 @@ export const Icon = (props: IconProps) => {
       case 'linkedin':
         return <AiOutlineLinkedin {...propsToPassToIconElement} />
 
-      case 'memoryreadwrite':
+      case 'gamehacking':
         return <GiProcessor {...propsToPassToIconElement} />
 
       case 'menu':

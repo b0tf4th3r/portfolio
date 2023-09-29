@@ -138,6 +138,7 @@ export const ProjectView = (props: ProjectViewProps) => {
                     </motion.div>
 
                     <ScrollableHorizontalBox
+                      shouldCenterItems={false}
                       componentsProps={{ root: { mt: [2] } }}
                     >
                       <>

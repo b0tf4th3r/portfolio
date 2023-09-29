@@ -18,7 +18,6 @@ export type TechnologyName =
   | 'tsjs'
   | 'csharp'
   | 'python'
-  | 'java'
   | 'graphql'
   // ! backend
   | 'nestjs'
@@ -40,11 +39,14 @@ export type TechnologyName =
   // ! automation
   | 'playwright'
   | 'puppeteer'
+  | 'jest'
   | 'nutjs'
   | 'scrapysplash'
   // ! other
   | 'docker'
   | 'git'
-  | "win32api"
+  | 'prometheus'
+  | 'grafana'
   | 'graylog'
-  | 'memoryreadwrite'
+  | 'win32api'
+  | 'gamehacking'

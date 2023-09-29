@@ -38,7 +38,7 @@ export const ListCard = (props: ListCardProps) => {
       <Card
         verticalAlign='top'
         w={['80vw', '70vw', '60vw', '50vw', '40vw']}
-        mr={[4, 8, 16]}
+        mr={props.isLastCard ? undefined : [4, 8, 16]}
       >
         <CardHeader>
           <Heading>{t(props.project.name)}</Heading>

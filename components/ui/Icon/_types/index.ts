@@ -16,7 +16,7 @@ export type IconProps = {
     | 'arrowRight'
     | 'robot'
     | 'win32api'
-    | 'memoryreadwrite'
+    | 'gamehacking'
     | 'images'
   size?: number | string
   color?: string
